@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>multiple style-tags</title>
+    <style>
+        .used-class, .unused-partial-class {color:#000000;}
+        #used-id, #unused-partial-id {color:#000000;}
+        h1, h3 {color:#000000;}
+
+        .unused-class {color:#000000;}
+        #unused-id {color:#000000;}
+        h2 {color:#000000;}
+    </style>
+    <style>
+        .used-class-2, .unused-partial-class-2 {color:#000000;}
+        #used-id-2, #unused-partial-id-2 {color:#000000;}
+        h4, h6 {color:#000000;}
+
+        .unused-class-2 {color:#000000;}
+        #unused-id-2 {color:#000000;}
+        h5 {color:#000000;}
+    </style>
+</head>
+<body>
+    <div class="used-class"></div>
+    <div id="used-id"></div>
+    <h1>used element</h1>
+    <div class="used-class-2"></div>
+    <div id="used-id-2"></div>
+    <h4>used element</h4>
+</body>
+</html>
