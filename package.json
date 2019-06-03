@@ -1,6 +1,6 @@
 {
   "name": "css-surgeon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Removes unused styles within <style>-tags",
   "author": "Mr. Schneepflug <mrschneepflug@not-my-problem.de>",
   "keywords": [
